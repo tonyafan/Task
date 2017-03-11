@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #wrapper {
+            width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px 20px;
+        }
+        #wrapper>header {
+            width: 100%;
+            position :relative;
+        }
+        #wrapper>header>img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50% 50%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            vertical-align: middle;
+        }
+          #wrapper>header>img:hover {
+                box-shadow: 0 5px 9px rgba(14,53,32,0.5);
+            }
+        #wrapper>header>.name {
+            display:inline-block;
+            vertical-align:middle;
+            margin-left: 20px;
+        }
+        #wrapper>header>.name>h1 {
+            font-weight: normal;
+        }
+         #wrapper>header>.name>h5 {
+             padding-left: 3px;
+         }
+         #wrapper>header>.contract {
+             position: absolute;
+             top: 50%;
+             right: 0;
+             transform: translateY(-50%);
+         }
+         #wrapper>header>.contract>h3 {
+             padding-right: 100px;
+             border-bottom: 1px solid #ccc;
+         }
+         #wrapper>header>.contact>ul {
+	         margin-top: 10px; 
+         }
+         #wrapper>header>.contract li {
+             line-height: 1.5;
+         }
+         #wrapper>header>.contract .emphasis {
+             font-weight: bold;
+             display: inline-block;
+             width: 24px;
+         }
+         #exp {
+             margin-top: 30px;
+         }
+         #exp>h3 {
+             width: 50%;
+             padding-bottom: 10px;
+             border-bottom: 1px solid #ccc;
+         }
+         #exp>ul {
+             margin-top: 20px;
+         }
+         #exp .job-place {
+            font-weight: bold;
+         }
+         #exp .job-place>time {
+             font-weight: normal;
+         	 color: #ccc;
+         }
+         #exp>ul>li {
+             border-left: 1px solid #000;
+             padding-left: 70px;
+             position: relative;
+         }
+         #exp>ul>li:before {
+             content: "";
+             width:10px;
+             height:10px;
+             border-radius: 50% 50%;
+             background-color: #000;
+             position: absolute;
+             top: 0;
+             left: -5px;
+         }
+         #exp>ul>li>p:last-child {
+             padding-bottom: 20px;
+         }
+         #exp>ul>li:last-child>p:last-child {
+             padding-bottom: 0;
+         }
+         #exp>ul>li>p {
+	        line-height: 1.5;
+         }
+         #exp>ul>li>.job-place {
+             line-height: 1;
+             margin-bottom: 10px;
+         }
+         .clearfix:after {
+	         content: "";
+	         display: block;
+	         clear: both;
+         }
+         #infor {
+             margin-top: 30px;
+         }
+         #infor>div {
+             float:left;
+             width: 450px;
+	         box-sizing: border-box;
+         }
+         #infor>div:first-child {
+             margin-right: 60px;
+         }
+         #infor>div>h3{
+             border-bottom: 1px solid #ccc;
+             padding-bottom: 10px; 
+         }
+         #infor>div>ul{
+             margin-top: 20px;
+         }
+         #infor>.extra>ul>li {
+	         margin-bottom: 10px;
+	         padding-left: 50px;
+         }
+         #infor>div>ul>li {
+             position: relative;
+         }
+         #infor>div>ul>li:before {
+             content:"+";
+             display: block;
+             border: 1px solid #000;
+             width: 16px;
+             height: 16px;            
+             line-height: 16px;
+             text-align: center;
+             border-radius: 50% 50%;
+             position: absolute;
+             top: 0;
+             left: -8px;
+         }
+         #infor>.extra>ul>li>p:first-child {
+             font-size :16px;
+             line-height: 1;
+             margin-bottom: 10px;
+         }
+         #infor>.extra>ul>li>p:last-child {
+             font-size :14px;
+             line-height: 1.5;
+         }
+         #infor>.skill>ul>li {
+             float: left;
+	         width: 50%;
+	         box-sizing: border-box;
+	         padding: 0 60px;
+	         margin-bottom: 50px;
+         }
+    </style>    
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=275622820,2944364039&fm=116&gp=0.jpg" alt="我的头像" title="Yeah!!!I'm here.">
+       <div class="name">
+            <h1>Tonya</h1>
+            <h5>xxx岗位</h5>
+       </div>
+       <div class="contract">
+            <h3>个人信息</h3>
+            <ul>
+                  <li><span class="emphasis">A</span>中国</li>
+					<li><span class="emphasis">M</span>xxxxxxx</li>
+					<li><span class="emphasis">E</span>xxxxxx@qq.com</li>
+            </ul>
+       </div>
+    </header>
+    <div id="exp">
+        <h3>WORK EXPERIENCE</h3>
+        <ul>
+            <li><p class="job-place">第一个工作  <time>2014~2015</time>
+            <p>工作中完成交办的事项，很好的完成日常工作……工作中完成交办的事项，很好的完成日常工作……工作中完成交办的事项，
+            很好的完成日常工作……工作中完成交办的事项，很好的完成日常工作……工作中完成交办的事项，很好的完成日常工作……</p></li>
+            <li><p class="job-place">第二个工作  <time>2015~2016</time>
+            <p>工作中完成交办的事项，很好的完成日常工作……工作中完成交办的事项，很好的完成日常工作……工作中完成交办的事项，
+            很好的完成日常工作……工作中完成交办的事项，很好的完成日常工作……工作中完成交办的事项，很好的完成日常工作……</p></li>
+        </ul>
+          </div>
+           <div id="exp">
+         <h3>EDUCATION</h3>
+          <ul>
+            <li><p class="job-place">第一个学习  <time>2008~2012</time>
+            <p>掌握专业知识……</p></li>
+            <li><p class="job-place">第二个学习  <time>2008~2012</time>
+            <p>掌握专业知识……</p></li>
+        </ul>
+    </div>
+    <footer id="infor">
+        <div class="extra">
+          <h3>EXTRA ABILITIES</h3>
+          <ul>
+			<li>
+				<p>music</p>
+				<p>靠近开机达拉斯激动按实际。</p>
+				</li>
+				<li>
+				<p>sports</p>
+				 <p>靠近开机达拉斯激动按实际。</p>
+				</li>
+			</ul>
+        </div>
+        <div class="skill">
+				<h3>PROFESION SKILLS</h3>
+				<ul class="clearfix">
+					<li>HTML & CSS</li>
+					<li>MUSIC</li>
+					<li>JAVASCRIPT</li>
+					<li>PHOTOSHOP</li>
+					<li>SPORTS</li>
+					<li>ILLUSTRATOR</li>
+				</ul>
+			</div>
+
+   </footer>
+</body>
+</html>
