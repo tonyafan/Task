@@ -1,0 +1,28 @@
+#cats>div:nth-child(1) {
+    margin-bottom:100px;
+}
+#cats>.cats-detail li {
+    float: left;
+    width:33%;
+    display:inline-block;
+}
+#cats>.cats-detail p {
+    padding:15px;
+}
+#cats .cats-style {
+    background-size:cover;
+    margin:0 auto;
+    width:250px;
+    height:250px;
+    border-radius: 250px;
+}
+#cats ul li .cat-1 {
+    background-image: url(https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1569462993,172008204&fm=5);
+}
+#cats ul li .cat-2 {
+    background-image: url(https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1667994205,255365672&fm=5);
+
+}
+#cats ul li .cat-3  {
+    background-image: url(https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2244238741,1217077712&fm=5);
+}

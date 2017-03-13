@@ -1,0 +1,44 @@
+header>.nav-bar {
+    background-color: rgba(0,0,0,0.8);
+    width:100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+header .nav-logo>a {
+    line-height:70px;
+    font-size: 28px;
+    color:#fed136;
+}
+header ul li a {
+    padding:10px 15px;
+    font-size:18px;
+    color:#fff;
+    line-height:70px;
+}
+header ul li a:hover {
+    color: #fed136;
+}
+header .nav-show {
+    overflow: hidden;
+    height: 720px;
+    background-image: url(https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2287816931,1201096380&fm=5);
+    background-size: cover;
+
+}
+header .nav-show p:nth-child(1) {
+    margin-top: 250px;
+    color: #fff;
+    font-size: 40px;  
+}
+header .nav-show p:nth-child(2) {
+    color: #fff;
+    font-size: 60px;  
+}
+header .nav-show p:nth-child(3) {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff; 
+}
+
+

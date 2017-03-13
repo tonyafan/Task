@@ -1,0 +1,44 @@
+#contact {
+  background-image: url(http://e.hiphotos.baidu.com/baike/s%3D220/sign=0dc4748c6959252da7171a06049a032c/203fb80e7bec54e7e2ec8c88b0389b504fc26a20.jpg);
+  background-size: cover;
+}
+#contact h2 {
+  color: #fff;
+}
+#contact form div {
+  width: 40%;
+}
+#contact input {
+  width: 100%;
+  font-size: 16px;
+  padding: 25px;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+}
+#contact textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  padding: 25px;
+  border-radius: 5px;
+}
+button {
+  color: #fff;
+  font-size: 20px;
+}
+/* footer style */
+footer span {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  
+}
+footer li {
+  display: inline-block;
+  margin-left: 10px;
+}
+footer a {
+  color: #fed136;
+}

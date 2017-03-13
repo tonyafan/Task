@@ -1,0 +1,40 @@
+#play {
+    background-color:#f7f7f7;
+}
+#play ul {
+    overflow:hidden;
+    margin-left:-45px;
+}
+#play li {
+    float:left;
+    margin-right:35px;
+    margin-bottom:20px;
+    background-color: #fff;
+}
+#play ul div {
+    width:300px;
+    height:200px;
+    background-size:cover;
+}
+#play .play-1 {
+  background-image: url(http://hiphotos.baidu.com/lingkongczx/pic/item/c0151229beec56b999250a0f.jpg);
+
+}
+#play .play-2 {
+  background-image: url(http://hiphotos.baidu.com/lingkongczx/pic/item/a7d78944c42defc5b2b7dc0f.jpg);
+
+}
+#play .play-3 {
+  background-image: url(http://hiphotos.baidu.com/lingkongczx/pic/item/334550f0045019847931aadd.jpg);
+
+}
+#play .play-4 {
+  background-image: url(http://hiphotos.baidu.com/lingkongczx/pic/item/fbe55e093a2c1ae82eddd408.jpg);
+}
+#play .play-5 {
+  background-image: url(http://hiphotos.baidu.com/lingkongczx/pic/item/4bfe22d143c54494572c840a.jpg);
+}
+#play .play-6 {
+  background-image: url(http://hiphotos.baidu.com/lingkongczx/pic/item/06d9fd39e11a8cb43a87ce08.jpg);
+}
+
